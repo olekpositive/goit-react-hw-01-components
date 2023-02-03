@@ -13,3 +13,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root {
+  --accent: #191c20;
+  --primary: #282828;
+  --secondary: #555555;
+  --bg: #d1ecc1;
+  --main-shadow: -2px -2px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.1);
+  --inset-shadow: inset -2px -2px 5px #ffffff, inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+  --online: #40c767;
+  --offline: #ff5858;
+  --percentage: #f8471b;
+}
