@@ -8,6 +8,7 @@ export const Container = styled.ul`
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  margin-top: 40px;
 `;
 
 

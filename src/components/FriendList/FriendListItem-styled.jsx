@@ -20,18 +20,6 @@ export const Online = styled.div`
   background-color: var(--online);
   border-radius: 50%;
   box-shadow: var(--main-shadow);
-  :after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 20px;
-    height: 20px;
-    background-color: var(--online);
-    border-radius: 50%;
-    opacity: 0.7;
-  }
 `;
 
 export const Offline = styled.div`
